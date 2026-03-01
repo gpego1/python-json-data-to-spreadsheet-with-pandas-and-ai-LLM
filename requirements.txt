@@ -1,0 +1,6 @@
+openai
+pandas
+dotenv
+json
+os
+openpyxl

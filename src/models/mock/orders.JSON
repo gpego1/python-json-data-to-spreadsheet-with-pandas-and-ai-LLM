@@ -1,0 +1,81 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "produtos": [
+        {"nome": "Teclado Mecânico", "quantidade": 1, "preco": 350},
+        {"nome": "Mouse Gamer", "quantidade": 1, "preco": 180}
+      ],
+      "preco_total": 530
+    },
+    {
+      "id": 2,
+      "produtos": [
+        {"nome": "Monitor 24 Polegadas", "quantidade": 1, "preco": 900},
+        {"nome": "Cabo HDMI", "quantidade": 2, "preco": 40}
+      ],
+      "preco_total": 980
+    },
+    {
+      "id": 3,
+      "produtos": [
+        {"nome": "Headset Gamer", "quantidade": 1, "preco": 250},
+        {"nome": "Mousepad Grande", "quantidade": 1, "preco": 70}
+      ],
+      "preco_total": 320
+    },
+    {
+      "id": 4,
+      "produtos": [
+        {"nome": "Notebook", "quantidade": 1, "preco": 4200}
+      ],
+      "preco_total": 4200
+    },
+    {
+      "id": 5,
+      "produtos": [
+        {"nome": "SSD 1TB", "quantidade": 1, "preco": 450},
+        {"nome": "Case para HD", "quantidade": 1, "preco": 120}
+      ],
+      "preco_total": 570
+    },
+    {
+      "id": 6,
+      "produtos": [
+        {"nome": "Placa de Vídeo RTX 4060", "quantidade": 1, "preco": 2800}
+      ],
+      "preco_total": 2800
+    },
+    {
+      "id": 7,
+      "produtos": [
+        {"nome": "Memória RAM 16GB", "quantidade": 2, "preco": 220}
+      ],
+      "preco_total": 440
+    },
+    {
+      "id": 8,
+      "produtos": [
+        {"nome": "Teclado Sem Fio", "quantidade": 1, "preco": 200},
+        {"nome": "Mouse Sem Fio", "quantidade": 1, "preco": 150},
+        {"nome": "Adaptador USB", "quantidade": 1, "preco": 50}
+      ],
+      "preco_total": 400
+    },
+    {
+      "id": 9,
+      "produtos": [
+        {"nome": "Webcam Full HD", "quantidade": 1, "preco": 300}
+      ],
+      "preco_total": 300
+    },
+    {
+      "id": 10,
+      "produtos": [
+        {"nome": "Cadeira Gamer", "quantidade": 1, "preco": 1200},
+        {"nome": "Apoio de Pé", "quantidade": 1, "preco": 150}
+      ],
+      "preco_total": 1350
+    }
+  ]
+}
