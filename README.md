@@ -87,8 +87,7 @@ Com a estrutura:
 Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/ai-order-analyzer.git
-cd ai-order-analyzer
+git clone https://github.com/gpego1/python-json-data-to-spreadsheet-with-pandas-and-ai-LLM
 ```
 
 Crie um ambiente virtual:
