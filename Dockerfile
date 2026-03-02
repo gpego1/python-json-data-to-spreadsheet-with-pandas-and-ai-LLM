@@ -10,8 +10,9 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY src/ ./src/
-COPY .env .
 
 RUN mkdir -p /app/output
+
+ENV PYTHONUNBUFFERED=1
 
 CMD ["python", "-m", "src.consumer.kafka_consumer"]
