@@ -1,2 +1,6 @@
 .venv
 orders.csv
+.env
+orders.xlsx
+/output
+/venv

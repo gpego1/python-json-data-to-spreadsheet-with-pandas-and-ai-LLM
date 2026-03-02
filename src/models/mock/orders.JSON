@@ -1,81 +1,301 @@
 {
   "orders": [
     {
-      "id": 1,
+      "id": 1001,
+      "user_id": 101,
+      "user_email": "joao.silva@email.com",
+      "preco_total": 3249.85,
+      "created_at": "2024-03-01T09:15:00",
       "produtos": [
-        {"nome": "Teclado Mecânico", "quantidade": 1, "preco": 350},
-        {"nome": "Mouse Gamer", "quantidade": 1, "preco": 180}
-      ],
-      "preco_total": 530
+        {
+          "id": 1,
+          "nome": "Smartphone Galaxy S23",
+          "quantidade": 1,
+          "preco": 2999.99
+        },
+        {
+          "id": 2,
+          "nome": "Capa de Silicone",
+          "quantidade": 2,
+          "preco": 49.90
+        },
+        {
+          "id": 3,
+          "nome": "Película de Vidro",
+          "quantidade": 1,
+          "preco": 29.90
+        },
+        {
+          "id": 4,
+          "nome": "Carregador Turbo",
+          "quantidade": 1,
+          "preco": 120.16
+        }
+      ]
     },
     {
-      "id": 2,
+      "id": 1002,
+      "user_id": 102,
+      "user_email": "maria.oliveira@email.com",
+      "preco_total": 5432.90,
+      "created_at": "2024-03-01T10:30:00",
       "produtos": [
-        {"nome": "Monitor 24 Polegadas", "quantidade": 1, "preco": 900},
-        {"nome": "Cabo HDMI", "quantidade": 2, "preco": 40}
-      ],
-      "preco_total": 980
+        {
+          "id": 5,
+          "nome": "Notebook Dell Inspiron",
+          "quantidade": 1,
+          "preco": 4899.00
+        },
+        {
+          "id": 6,
+          "nome": "Mouse Sem Fio",
+          "quantidade": 1,
+          "preco": 89.90
+        },
+        {
+          "id": 7,
+          "nome": "Mochila para Notebook",
+          "quantidade": 1,
+          "preco": 199.00
+        },
+        {
+          "id": 8,
+          "nome": "Headset Gamer",
+          "quantidade": 1,
+          "preco": 245.00
+        }
+      ]
     },
     {
-      "id": 3,
+      "id": 1003,
+      "user_id": 103,
+      "user_email": "pedro.santos@email.com",
+      "preco_total": 876.50,
+      "created_at": "2024-03-01T11:45:00",
       "produtos": [
-        {"nome": "Headset Gamer", "quantidade": 1, "preco": 250},
-        {"nome": "Mousepad Grande", "quantidade": 1, "preco": 70}
-      ],
-      "preco_total": 320
+        {
+          "id": 9,
+          "nome": "Fone de Ouvido Bluetooth",
+          "quantidade": 2,
+          "preco": 199.90
+        },
+        {
+          "id": 10,
+          "nome": "Carregador Portátil",
+          "quantidade": 1,
+          "preco": 149.90
+        },
+        {
+          "id": 11,
+          "nome": "Cabo USB-C",
+          "quantidade": 3,
+          "preco": 29.90
+        },
+        {
+          "id": 12,
+          "nome": "Adaptador Bluetooth",
+          "quantidade": 1,
+          "preco": 67.90
+        }
+      ]
     },
     {
-      "id": 4,
+      "id": 1004,
+      "user_id": 104,
+      "user_email": "ana.costa@email.com",
+      "preco_total": 1875.30,
+      "created_at": "2024-03-01T13:20:00",
       "produtos": [
-        {"nome": "Notebook", "quantidade": 1, "preco": 4200}
-      ],
-      "preco_total": 4200
+        {
+          "id": 13,
+          "nome": "Tablet Samsung Tab",
+          "quantidade": 1,
+          "preco": 1599.00
+        },
+        {
+          "id": 14,
+          "nome": "Teclado Bluetooth",
+          "quantidade": 1,
+          "preco": 189.90
+        },
+        {
+          "id": 15,
+          "nome": "Caneta Stylus",
+          "quantidade": 1,
+          "preco": 86.40
+        }
+      ]
     },
     {
-      "id": 5,
+      "id": 1005,
+      "user_id": 105,
+      "user_email": "carlos.lima@email.com",
+      "preco_total": 4128.60,
+      "created_at": "2024-03-01T14:50:00",
       "produtos": [
-        {"nome": "SSD 1TB", "quantidade": 1, "preco": 450},
-        {"nome": "Case para HD", "quantidade": 1, "preco": 120}
-      ],
-      "preco_total": 570
+        {
+          "id": 16,
+          "nome": "Smart TV 50 Polegadas",
+          "quantidade": 1,
+          "preco": 2899.00
+        },
+        {
+          "id": 17,
+          "nome": "Soundbar",
+          "quantidade": 1,
+          "preco": 599.00
+        },
+        {
+          "id": 18,
+          "nome": "Suporte de Parede",
+          "quantidade": 1,
+          "preco": 129.90
+        },
+        {
+          "id": 19,
+          "nome": "Controle Universal",
+          "quantidade": 2,
+          "preco": 89.90
+        },
+        {
+          "id": 20,
+          "nome": "Cabo HDMI 2.0",
+          "quantidade": 2,
+          "preco": 65.00
+        }
+      ]
     },
     {
-      "id": 6,
+      "id": 1006,
+      "user_id": 106,
+      "user_email": "julia.martins@email.com",
+      "preco_total": 967.40,
+      "created_at": "2024-03-01T16:15:00",
       "produtos": [
-        {"nome": "Placa de Vídeo RTX 4060", "quantidade": 1, "preco": 2800}
-      ],
-      "preco_total": 2800
+        {
+          "id": 21,
+          "nome": "Kindle Paperwhite",
+          "quantidade": 1,
+          "preco": 499.00
+        },
+        {
+          "id": 22,
+          "nome": "Capa Kindle",
+          "quantidade": 2,
+          "preco": 79.90
+        },
+        {
+          "id": 23,
+          "nome": "Luminária de Leitura",
+          "quantidade": 1,
+          "preco": 89.90
+        },
+        {
+          "id": 24,
+          "nome": "Marcadores Digitais",
+          "quantidade": 3,
+          "preco": 25.90
+        }
+      ]
     },
     {
-      "id": 7,
+      "id": 1007,
+      "user_id": 107,
+      "user_email": "rafael.rodrigues@email.com",
+      "preco_total": 2850.00,
+      "created_at": "2024-03-01T17:40:00",
       "produtos": [
-        {"nome": "Memória RAM 16GB", "quantidade": 2, "preco": 220}
-      ],
-      "preco_total": 440
+        {
+          "id": 25,
+          "nome": "Placa de Vídeo RTX 3060",
+          "quantidade": 1,
+          "preco": 1999.00
+        },
+        {
+          "id": 26,
+          "nome": "Fonte 650W",
+          "quantidade": 1,
+          "preco": 399.00
+        },
+        {
+          "id": 27,
+          "nome": "Memória RAM 16GB",
+          "quantidade": 2,
+          "preco": 299.00
+        },
+        {
+          "id": 28,
+          "nome": "SSD 1TB",
+          "quantidade": 1,
+          "preco": 399.00
+        }
+      ]
     },
     {
-      "id": 8,
+      "id": 1008,
+      "user_id": 108,
+      "user_email": "fernanda.souza@email.com",
+      "preco_total": 625.80,
+      "created_at": "2024-03-01T18:55:00",
       "produtos": [
-        {"nome": "Teclado Sem Fio", "quantidade": 1, "preco": 200},
-        {"nome": "Mouse Sem Fio", "quantidade": 1, "preco": 150},
-        {"nome": "Adaptador USB", "quantidade": 1, "preco": 50}
-      ],
-      "preco_total": 400
+        {
+          "id": 29,
+          "nome": "Smartwatch Amazfit",
+          "quantidade": 1,
+          "preco": 399.00
+        },
+        {
+          "id": 30,
+          "nome": "Pulseira Extra",
+          "quantidade": 2,
+          "preco": 49.90
+        },
+        {
+          "id": 31,
+          "nome": "Película Smartwatch",
+          "quantidade": 2,
+          "preco": 19.90
+        },
+        {
+          "id": 32,
+          "nome": "Carregador Wireless",
+          "quantidade": 1,
+          "preco": 87.20
+        }
+      ]
     },
     {
-      "id": 9,
+      "id": 1009,
+      "user_id": 109,
+      "user_email": "lucas.pereira@email.com",
+      "preco_total": 1763.50,
+      "created_at": "2024-03-01T20:10:00",
       "produtos": [
-        {"nome": "Webcam Full HD", "quantidade": 1, "preco": 300}
-      ],
-      "preco_total": 300
-    },
-    {
-      "id": 10,
-      "produtos": [
-        {"nome": "Cadeira Gamer", "quantidade": 1, "preco": 1200},
-        {"nome": "Apoio de Pé", "quantidade": 1, "preco": 150}
-      ],
-      "preco_total": 1350
+        {
+          "id": 33,
+          "nome": "Câmera Canon EOS",
+          "quantidade": 1,
+          "preco": 1250.00
+        },
+        {
+          "id": 34,
+          "nome": "Lente 50mm",
+          "quantidade": 1,
+          "preco": 299.00
+        },
+        {
+          "id": 35,
+          "nome": "Cartão SD 64GB",
+          "quantidade": 1,
+          "preco": 89.90
+        },
+        {
+          "id": 36,
+          "nome": "Tripé",
+          "quantidade": 1,
+          "preco": 124.60
+        }
+      ]
     }
   ]
 }
